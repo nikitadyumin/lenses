@@ -1,0 +1,30 @@
+{
+  "name": "lenses",
+  "version": "1.0.0",
+  "description": "javascript functional lenses library for easy objects manupulation",
+  "keywords": [
+    "lens",
+    "lenses",
+    "functional",
+    "data",
+    "datastructure",
+    "selector",
+    "react",
+    "redux",
+    "reducer",
+    "immutable"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "author": "Nikita Dyumin",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "mocha": "^3.1.2",
+    "webpack": "^1.13.3"
+  }
+}
